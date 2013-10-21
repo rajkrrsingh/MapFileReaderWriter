@@ -36,7 +36,7 @@ public class MapFileConverter {
 			try {
 				writer = new MapFile.Writer(conf, fs, outputFile.toString(),
 						txtKey.getClass(), txtKey.getClass());
-				writer.setIndexInterval(1);//Need this as the default is 128, and my data is just 9 records
+				writer.setIndexInterval(1);
 				while (inputStream.available() > 0) {
 					strLineInInputFile = inputStream.readLine();
 					lstKeyValuePair = strLineInInputFile.split("\\t");
