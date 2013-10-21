@@ -1,8 +1,5 @@
 package com.rjkrsinghhadoop;
 
-/******************************************
- * FormatConverterTextToMap.java
- * ****************************************/
 
 import  java.io.IOException;
 import org.apache.hadoop.io.Text;
